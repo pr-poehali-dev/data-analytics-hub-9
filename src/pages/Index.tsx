@@ -100,8 +100,8 @@ export default function Index() {
       <div className="min-h-screen bg-[#0e0e0e] flex items-center justify-center p-4">
         <div className="w-full max-w-sm">
           <div className="flex flex-col items-center mb-8">
-            <div className="w-16 h-16 rounded-full bg-[#2AABEE] flex items-center justify-center mb-4 shadow-lg shadow-[#2AABEE]/20">
-              <Icon name="Send" size={28} className="text-white" />
+            <div className="w-16 h-16 rounded-full overflow-hidden mb-4 shadow-lg shadow-[#2AABEE]/20">
+              <img src="https://cdn.poehali.dev/projects/3e7339fe-3dc5-4e78-8fdc-c23b73af18a2/bucket/3e43fa75-d696-4709-9487-2495cbcc522f.jpg" alt="Oxiwis" className="w-full h-full object-cover" />
             </div>
             <h1 className="text-2xl font-bold text-white">Oxiwis</h1>
             <p className="text-[#8e8e8e] text-sm mt-1">Мессенджер нового поколения</p>
@@ -162,7 +162,9 @@ export default function Index() {
         <div className="w-72 bg-[#161616] border-r border-[#232323] flex flex-col">
           <div className="p-4 border-b border-[#232323]">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full bg-[#2AABEE] flex items-center justify-center text-white font-bold text-lg">А</div>
+              <div className="w-12 h-12 rounded-full overflow-hidden">
+                <img src="https://cdn.poehali.dev/projects/3e7339fe-3dc5-4e78-8fdc-c23b73af18a2/bucket/3e43fa75-d696-4709-9487-2495cbcc522f.jpg" alt="avatar" className="w-full h-full object-cover" />
+              </div>
               <div>
                 <div className="text-white font-semibold">Алексей</div>
                 <div className="text-[#8e8e8e] text-xs">@alexey · В сети</div>
@@ -228,7 +230,9 @@ export default function Index() {
               <h2 className="text-xl font-bold text-white mb-6">Мой аккаунт</h2>
               <div className="bg-[#1c1c1c] rounded-2xl p-6 mb-4">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-16 h-16 rounded-full bg-[#2AABEE] flex items-center justify-center text-white font-bold text-2xl">А</div>
+                  <div className="w-16 h-16 rounded-full overflow-hidden">
+                <img src="https://cdn.poehali.dev/projects/3e7339fe-3dc5-4e78-8fdc-c23b73af18a2/bucket/3e43fa75-d696-4709-9487-2495cbcc522f.jpg" alt="avatar" className="w-full h-full object-cover" />
+              </div>
                   <div>
                     <div className="text-white font-semibold text-lg">Алексей</div>
                     <div className="text-[#8e8e8e] text-sm">alexey@example.com</div>
