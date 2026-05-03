@@ -159,8 +159,8 @@ export default function Index() {
             }}>
               <img src={AVATAR} alt="Oxiwis" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
             </div>
-            <h1 className="text-2xl font-bold text-white tracking-tight">Oxiwis</h1>
-            <p className="text-[#666] text-sm mt-1">Мессенджер нового поколения</p>
+            <h1 className="text-2xl font-bold text-white tracking-tight">OxiChat</h1>
+            <p className="text-[#666] text-sm mt-1">от Oxiwis</p>
           </div>
 
           <div className="rounded-2xl p-5 shadow-2xl" style={{ background: "#161616" }}>
